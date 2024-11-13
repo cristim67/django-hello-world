@@ -1,0 +1,14 @@
+backend:
+    functions:
+        - entry: api/asgi.py
+          handler: application
+          name: django
+          path: .
+          type: httpServer
+    language:
+        name: python
+        packageManager: pip
+    path: .
+name: harlequin-identical-pony
+region: us-east-1
+yamlVersion: 2
